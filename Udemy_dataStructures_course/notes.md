@@ -47,9 +47,11 @@
 ### Master common problem solving patterns
 
 - **Frequency Counter**
+
   - Use an object to collect values/frequencies of values
   - This can often avoid the need for nested loops or O(n^2) operations with arrays/strings
   - A way of breaking down the contents of an array or string and quickly compare it to another object broken down like comparing two arrays by placing them into objects
+
 - **Multiple Pointers**
   - Create pointers or values that correspond to an index or position and then move based on a certain condition
 
@@ -58,3 +60,15 @@
   - Depending on a certain condition, the window either increases or closes (and a new window is created)
 
 * **Divide and Conquer**
+  - Divide a data set into smaller chunks and then repeating process with a subset of data
+  - Can tremendously decrease time complexity
+
+### Recursion
+
+- Taking one problem and performing it over and over until you reach the base case
+- A process that calls itself
+- In almost all programming languages, there is a built in data structure that manages what happens when functions are invoked - call stack
+  - Data structure called stack
+  - When a function is invoked, it is placed on the top of the call stack
+  - When Javascript sees the return key word, the compiler removes(pops) from the top
+-
